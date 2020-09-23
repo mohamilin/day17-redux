@@ -83,7 +83,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
     - src/redux/reducers/cart.reducers.js
     - src/redux/store/store.js
     - src/components/Header.js
-    - src/components/Container.js`
+    - src/components/ContainerCart.js`
 2. `Styling dasar dalam file-file di component `
 3. `Hal-hal yang perlu diperhatikan yaitu :
     - file pada folder actions di export ke reducers kemudian file pada reducer di export ke store
@@ -91,7 +91,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
     - KONSEP :
         - Kita akan membuat aplikasi terdiri dari header dan container yang berisikan mengenai fungsi cart dimana ketika kita akan menambahkan jumlah barang pada bagian container secara otomatis akan tampil pada bagian header atau biasanya oada bagian wishlist. `
 
-        `Codingan awal Container.js : `
+        `Codingan awal ContainerCart.js : `
         import React from 'react'
         function Container() {
             return (
